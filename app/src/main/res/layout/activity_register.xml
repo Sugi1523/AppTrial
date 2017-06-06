@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samsung_pc.apptrial.RegisterActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="381dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="384dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="383dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="385dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="384dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Height"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="384dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="383dp"
+        android:layout_height="48dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+</android.support.constraint.ConstraintLayout>
