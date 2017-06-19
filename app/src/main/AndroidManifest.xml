@@ -20,7 +20,9 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".UserAreaActivity" />
-        <activity android:name=".SideBarNavActivity"></activity>
+        <activity android:name=".SideBarNavActivity" />
+        <activity android:name=".Home" />
+        <activity android:name=".Foodlist"></activity>
     </application>
 
 </manifest>
